@@ -13,7 +13,7 @@ namespace SalesWebMvc.Data {
             _context = context;
         }
         public void Seed() {
-            if (_context.Department.Any() || _context.Seller.Any() || _context.SalesRecords.Any()) {
+            if (_context.Department.Any() || _context.Seller.Any() || _context.SalesRecord.Any()) {
                 return; // DB das been seeeded (O BD já foi populado)
             }
 /*
